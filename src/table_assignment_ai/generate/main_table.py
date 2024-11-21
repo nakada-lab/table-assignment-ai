@@ -5,9 +5,9 @@ import json
 from faker import Faker
 
 fake = Faker('jp-JP')
-Faker.seed(13413245)
+Faker.seed(9320)
 
-n = 3
+n = 10000
 
 today = datetime(2018, 7, 29, 23, 59, 59)
 

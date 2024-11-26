@@ -78,7 +78,14 @@ data = [
     {
         "uuid": f"{uuid.uuid4()}",
         "visit_time": (
-            datetime(2018, 7, 29, random.randint(9, 22), random.randint(0, 59), 59)
+            datetime(
+                2018,
+                7,
+                29,
+                random.randint(9, 22),
+                random.randint(0, 59),
+                random.randint(0, 59),
+            )
         )
         .time()
         .isoformat(),
